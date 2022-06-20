@@ -1,0 +1,1 @@
+# open5gs_docker_build_forCI
