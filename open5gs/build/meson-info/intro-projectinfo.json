@@ -1,0 +1,1 @@
+{"version": "2.2.2", "descriptive_name": "open5gs", "subproject_dir": "subprojects", "subprojects": [{"name": "freeDiameter", "version": "1.3.2", "descriptive_name": "freediameter"}]}
