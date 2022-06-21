@@ -19,8 +19,8 @@ spec:
             container('docker') {
                 sh "docker build -t jyo925/jiyoon-open5gs:v2.0 ."
                 }
-            }
         }
+        
 
         stage('Push docker image') {
             container('docker') {
