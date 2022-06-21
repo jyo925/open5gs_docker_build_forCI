@@ -24,7 +24,7 @@ spec:
 
         stage('Push docker image') {
             container('docker') {
-                withDockerRegistry([ credentialsId: "dockerHub", url: "https://registry.hub.docker.com" ]) {
+                withDockerRegistry([ credentialsId: "docker_registry", url: "https://registry.hub.docker.com" ]) {
                     docker.image("jyo925/jiyoon-open5gs:v2.0").push()
                 }
             }
